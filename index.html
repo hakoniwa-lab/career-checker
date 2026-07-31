@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>転職エージェント診断 | あなたに合う転職支援サービスがわかる</title>
+<meta name="description" content="今の働き方・悩み・希望条件を答えるだけで、あなたに合いそうな転職エージェント・転職支援サービスをかんたん診断。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app" class="app">
+
+  <header class="app-header">
+    <p class="app-header__eyebrow">かんたん1分診断</p>
+    <h1 class="app-header__title">あなたに合う<br class="sp-only">転職エージェント診断</h1>
+    <p class="app-header__lead">今の働き方や転職の悩みを5つの質問で答えるだけで、合いそうな転職支援サービスをチェックします。</p>
+  </header>
+
+  <main id="main" class="main">
+
+    <!-- intro screen -->
+    <section id="screen-intro" class="screen" data-screen="intro">
+      <div class="card card--intro">
+        <ul class="intro-points">
+          <li>質問はたった5問（30秒程度）</li>
+          <li>正社員転職・フリーランス独立・退職の悩みまで幅広く対応</li>
+          <li>結果はその場で表示、個人情報の入力は不要</li>
+        </ul>
+        <button type="button" class="btn btn--primary btn--large" id="btn-start">診断をはじめる</button>
+        <p class="intro-disclaimer">※ 表示されるサービスの特徴・対象条件は一般的な傾向です。実際の対応可否は各サービスの公式サイトでご確認ください。</p>
+      </div>
+    </section>
+
+    <!-- quiz screen -->
+    <section id="screen-quiz" class="screen" data-screen="quiz" hidden>
+      <div class="progress" aria-hidden="true">
+        <div class="progress__bar" id="progress-bar"></div>
+      </div>
+      <p class="progress__label" id="progress-label">質問 1 / 5</p>
+
+      <div class="card card--quiz" id="quiz-card">
+        <!-- quiz.js が質問ごとに描画する -->
+      </div>
+
+      <div class="quiz-nav">
+        <button type="button" class="btn btn--ghost" id="btn-back" hidden>戻る</button>
+      </div>
+    </section>
+
+    <!-- result screen -->
+    <section id="screen-result" class="screen" data-screen="result" hidden>
+      <div class="result-summary" id="result-summary"></div>
+      <div class="result-list" id="result-list"></div>
+      <div id="ad-slot-result-bottom" class="ad-slot" aria-hidden="true"></div>
+
+      <button type="button" class="btn btn--ghost" id="btn-restart">もう一度診断する</button>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>本サイトは転職支援サービスの情報提供を目的としており、転職の成功や採用を保証するものではありません。各サービスの詳細・最新情報は公式サイトをご確認ください。「PR」表記のあるリンクにはプロモーション(アフィリエイト広告)が含まれます。</p>
+  </footer>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/match.js"></script>
+<script src="js/render.js"></script>
+<script src="js/quiz.js"></script>
+</body>
+</html>
