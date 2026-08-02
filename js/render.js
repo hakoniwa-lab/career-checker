@@ -33,6 +33,9 @@ function buildCrossLinkBanner(agent, concern) {
   if (concern === "independence") {
     return `<a class="cross-link-banner" href="../sidejob-checker/">フリーランスとして他にどんな仕事が向いているか、副業ジャンル診断でも確認できます →</a>`;
   }
+  if (concern === "quit_difficulty") {
+    return `<a class="cross-link-banner" href="../resignation-letter-generator/">自分で退職を伝える場合は、退職願・退職届の文面を自動作成できます →</a>`;
+  }
   return "";
 }
 
