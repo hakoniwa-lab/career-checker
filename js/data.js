@@ -173,6 +173,106 @@ const AGENTS = [
     ],
     "links_to_subsidy_checker": false,
     "priority": 1
+  },
+  {
+    "id": "daini-shinsotsu-neo",
+    "name": "第二新卒エージェントneo",
+    "category": "第二新卒・フリーター転職",
+    "summary": "第二新卒・既卒・フリーター・中退・高卒など、経歴に不安がある20代向けの就職・転職支援エージェント。未経験可の求人を中心に、書類添削・面接対策までサポートする。",
+    "feature_text": "第二新卒・既卒・フリーター・中退・高卒に特化、未経験可求人が中心",
+    "fit_text": "経歴やブランクに不安があり、まずは安定した正社員の職を探したい20代向け",
+    "conditions_text": "主に20代を対象とした求人紹介サービス",
+    "tags": {
+      "employment_status": ["employee", "unemployed", "student"],
+      "concern": [],
+      "work_style": ["fulltime"],
+      "industry": ["any"],
+      "age_range": ["20s"]
+    },
+    "related_offers": [
+      {
+        "label": "第二新卒エージェントneoで求人を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWS+3ITLW2+3Y6M+67JUA",
+        "type": "affiliate"
+      }
+    ],
+    "links_to_subsidy_checker": false,
+    "priority": 2
+  },
+  {
+    "id": "shigoto-in",
+    "name": "シゴトin",
+    "category": "求人検索(バイト・派遣・転職)",
+    "summary": "全国のアルバイト・パート・派遣・正社員転職の求人をまとめて検索できる求人検索サービス。働き方を問わずカンタンに応募できる。",
+    "feature_text": "バイト・派遣・転職まで働き方を問わず横断検索できる",
+    "fit_text": "まずは幅広い求人を自分の目で見比べてから決めたい人向け",
+    "conditions_text": "特になし。誰でも利用できる求人検索サービス",
+    "tags": {
+      "employment_status": [],
+      "concern": [],
+      "work_style": [],
+      "industry": [],
+      "age_range": []
+    },
+    "related_offers": [
+      {
+        "label": "シゴトinで求人を探す",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892673498",
+        "type": "affiliate"
+      }
+    ],
+    "links_to_subsidy_checker": false,
+    "priority": 3
+  },
+  {
+    "id": "kaigobatake",
+    "name": "かいご畑",
+    "category": "介護専門求人",
+    "summary": "介護業界専門の求人紹介サービス。無資格・未経験からでも挑戦しやすい求人が多く、資格取得支援制度がある求人も紹介してもらえる。",
+    "feature_text": "介護業界に特化、無資格・未経験可の求人や資格取得支援制度に強い",
+    "fit_text": "介護業界で働きたい、資格を取りながら働きたい人向け",
+    "conditions_text": "介護業界の求人紹介に特化したサービス",
+    "tags": {
+      "employment_status": ["employee", "unemployed", "student"],
+      "concern": [],
+      "work_style": ["fulltime", "either"],
+      "industry": ["other"],
+      "age_range": []
+    },
+    "related_offers": [
+      {
+        "label": "かいご畑で介護の求人を探す",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892673499",
+        "type": "affiliate"
+      }
+    ],
+    "links_to_subsidy_checker": false,
+    "priority": 2
+  },
+  {
+    "id": "hoikubatake",
+    "name": "ほいく畑",
+    "category": "保育専門求人",
+    "summary": "保育業界専門の求人紹介サービス。保育士資格を活かせる求人はもちろん、無資格から保育補助として働ける求人も紹介してもらえる。",
+    "feature_text": "保育業界に特化、保育士資格者向け求人から無資格可の保育補助求人まで対応",
+    "fit_text": "保育業界で働きたい、保育士資格を活かして転職したい人向け",
+    "conditions_text": "保育業界の求人紹介に特化したサービス",
+    "tags": {
+      "employment_status": ["employee", "unemployed", "student"],
+      "concern": [],
+      "work_style": ["fulltime", "either"],
+      "industry": ["other"],
+      "age_range": []
+    },
+    "related_offers": [
+      {
+        "label": "ほいく畑で保育の求人を探す",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892673501",
+        "type": "affiliate"
+      }
+    ],
+    "links_to_subsidy_checker": false,
+    "priority": 2
   }
 ]
 ;

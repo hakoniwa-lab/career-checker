@@ -36,6 +36,9 @@ function buildCrossLinkBanner(agent, concern) {
   if (concern === "quit_difficulty") {
     return `<a class="cross-link-banner" href="../resignation-letter-generator/">自分で退職を伝える場合は、退職願・退職届の文面を自動作成できます →</a>`;
   }
+  if (concern === "disability_support") {
+    return `<a class="cross-link-banner" href="../insurance-checker/">障害や病気に備える保険が必要か、保険診断でも確認できます →</a>`;
+  }
   return "";
 }
 
