@@ -117,7 +117,7 @@ const AGENTS = [
     "related_offers": [
       {
         "label": "エイジレスエージェントで転職を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668922",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676010",
         "type": "affiliate"
       }
     ],
@@ -167,7 +167,7 @@ const AGENTS = [
     "related_offers": [
       {
         "label": "障害者ナビで求人を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668928",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676012",
         "type": "affiliate"
       }
     ],
