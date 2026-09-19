@@ -38,6 +38,11 @@ career-checker/
    ```
 3. `node --check js/data.js` で構文チェック。
 
+**注意(2026-09-20)**: 第二新卒neo・シゴトin・かいご畑・ほいく畑の4件が `js/data.js` にだけ追加され、`data/agents.json` に入っていなかった。
+この状態で手順2を流すと4件が消える。2026-09-20 に `agents.json` を `data.js` に合わせて11件にした。**data.js を直接編集しないこと**。
+
+`related_offers` の `type` は `affiliate`(PR表記と rel="sponsored" を付ける)か `official`(広告ではない公式サイトへのリンク。提携の審査待ちの間など)。
+
 ### tagsフィールドの語彙
 
 - `employment_status`: `employee` / `freelance` / `unemployed` / `student`(空配列は制限なし)

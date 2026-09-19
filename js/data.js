@@ -9,9 +9,16 @@ const AGENTS = [
     "conditions_text": "一定のIT実務経験があると案件を紹介されやすい",
     "tags": {
       "employment_status": [],
-      "concern": ["independence", "it_skillup"],
-      "work_style": ["freelance_contract"],
-      "industry": ["it"],
+      "concern": [
+        "independence",
+        "it_skillup"
+      ],
+      "work_style": [
+        "freelance_contract"
+      ],
+      "industry": [
+        "it"
+      ],
       "age_range": []
     },
     "related_offers": [
@@ -34,9 +41,16 @@ const AGENTS = [
     "conditions_text": "登録後、専任エージェントとの面談を経て案件紹介が始まる",
     "tags": {
       "employment_status": [],
-      "concern": ["independence", "it_skillup"],
-      "work_style": ["freelance_contract"],
-      "industry": ["it"],
+      "concern": [
+        "independence",
+        "it_skillup"
+      ],
+      "work_style": [
+        "freelance_contract"
+      ],
+      "industry": [
+        "it"
+      ],
       "age_range": []
     },
     "related_offers": [
@@ -58,10 +72,18 @@ const AGENTS = [
     "fit_text": "客先常駐や激務のSIerから、腰を据えて働ける社内SEへ転職したい人向け",
     "conditions_text": "IT実務経験(開発・インフラ・ヘルプデスク等)があると転職しやすい",
     "tags": {
-      "employment_status": ["employee"],
-      "concern": ["it_skillup"],
-      "work_style": ["fulltime"],
-      "industry": ["it"],
+      "employment_status": [
+        "employee"
+      ],
+      "concern": [
+        "it_skillup"
+      ],
+      "work_style": [
+        "fulltime"
+      ],
+      "industry": [
+        "it"
+      ],
       "age_range": []
     },
     "related_offers": [
@@ -83,11 +105,22 @@ const AGENTS = [
     "fit_text": "未経験からITエンジニアとしてキャリアをスタートしたい20代向け",
     "conditions_text": "主に20代・第二新卒層を対象とした求人が中心",
     "tags": {
-      "employment_status": ["employee", "unemployed"],
-      "concern": ["it_skillup"],
-      "work_style": ["fulltime"],
-      "industry": ["it"],
-      "age_range": ["20s"]
+      "employment_status": [
+        "employee",
+        "unemployed"
+      ],
+      "concern": [
+        "it_skillup"
+      ],
+      "work_style": [
+        "fulltime"
+      ],
+      "industry": [
+        "it"
+      ],
+      "age_range": [
+        "20s"
+      ]
     },
     "related_offers": [
       {
@@ -108,11 +141,24 @@ const AGENTS = [
     "fit_text": "年齢的に転職が不安な30代後半〜40代以上向け",
     "conditions_text": "主に35歳以上を対象とした求人紹介サービス",
     "tags": {
-      "employment_status": ["employee", "unemployed"],
-      "concern": ["age_anxiety"],
-      "work_style": ["fulltime", "either"],
-      "industry": ["any"],
-      "age_range": ["30s", "40s_plus"]
+      "employment_status": [
+        "employee",
+        "unemployed"
+      ],
+      "concern": [
+        "age_anxiety"
+      ],
+      "work_style": [
+        "fulltime",
+        "either"
+      ],
+      "industry": [
+        "any"
+      ],
+      "age_range": [
+        "30s",
+        "40s_plus"
+      ]
     },
     "related_offers": [
       {
@@ -133,10 +179,16 @@ const AGENTS = [
     "fit_text": "上司に退職を切り出しづらい、即日退職したい人向け",
     "conditions_text": "退職代行サービスのため、転職先探しは別途エージェント等の利用が必要",
     "tags": {
-      "employment_status": ["employee"],
-      "concern": ["quit_difficulty"],
+      "employment_status": [
+        "employee"
+      ],
+      "concern": [
+        "quit_difficulty"
+      ],
       "work_style": [],
-      "industry": ["any"],
+      "industry": [
+        "any"
+      ],
       "age_range": []
     },
     "related_offers": [
@@ -158,17 +210,28 @@ const AGENTS = [
     "fit_text": "障害・特性に配慮した働き方を探している人向け",
     "conditions_text": "障害者手帳の有無等、サービスによって利用条件が異なる場合がある",
     "tags": {
-      "employment_status": ["employee", "unemployed", "student"],
-      "concern": ["disability_support"],
-      "work_style": ["fulltime", "either"],
-      "industry": ["any"],
+      "employment_status": [
+        "employee",
+        "unemployed",
+        "student"
+      ],
+      "concern": [
+        "disability_support"
+      ],
+      "work_style": [
+        "fulltime",
+        "either"
+      ],
+      "industry": [
+        "any"
+      ],
       "age_range": []
     },
     "related_offers": [
       {
-        "label": "障害者ナビで求人を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676012",
-        "type": "affiliate"
+        "label": "障害者ナビの公式サイトを見る",
+        "url": "https://s-jobnavi.jp/",
+        "type": "official"
       }
     ],
     "links_to_subsidy_checker": false,
@@ -183,11 +246,21 @@ const AGENTS = [
     "fit_text": "経歴やブランクに不安があり、まずは安定した正社員の職を探したい20代向け",
     "conditions_text": "主に20代を対象とした求人紹介サービス",
     "tags": {
-      "employment_status": ["employee", "unemployed", "student"],
+      "employment_status": [
+        "employee",
+        "unemployed",
+        "student"
+      ],
       "concern": [],
-      "work_style": ["fulltime"],
-      "industry": ["any"],
-      "age_range": ["20s"]
+      "work_style": [
+        "fulltime"
+      ],
+      "industry": [
+        "any"
+      ],
+      "age_range": [
+        "20s"
+      ]
     },
     "related_offers": [
       {
@@ -233,10 +306,19 @@ const AGENTS = [
     "fit_text": "介護業界で働きたい、資格を取りながら働きたい人向け",
     "conditions_text": "介護業界の求人紹介に特化したサービス",
     "tags": {
-      "employment_status": ["employee", "unemployed", "student"],
+      "employment_status": [
+        "employee",
+        "unemployed",
+        "student"
+      ],
       "concern": [],
-      "work_style": ["fulltime", "either"],
-      "industry": ["other"],
+      "work_style": [
+        "fulltime",
+        "either"
+      ],
+      "industry": [
+        "other"
+      ],
       "age_range": []
     },
     "related_offers": [
@@ -258,10 +340,19 @@ const AGENTS = [
     "fit_text": "保育業界で働きたい、保育士資格を活かして転職したい人向け",
     "conditions_text": "保育業界の求人紹介に特化したサービス",
     "tags": {
-      "employment_status": ["employee", "unemployed", "student"],
+      "employment_status": [
+        "employee",
+        "unemployed",
+        "student"
+      ],
       "concern": [],
-      "work_style": ["fulltime", "either"],
-      "industry": ["other"],
+      "work_style": [
+        "fulltime",
+        "either"
+      ],
+      "industry": [
+        "other"
+      ],
       "age_range": []
     },
     "related_offers": [
@@ -274,5 +365,4 @@ const AGENTS = [
     "links_to_subsidy_checker": false,
     "priority": 2
   }
-]
-;
+];
