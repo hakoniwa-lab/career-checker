@@ -53,7 +53,7 @@ career-checker/
 
 ### スコアリングとpriorityの向き
 
-`js/match.js`の`scoreAgent`は`concern`一致を最重要視(+5)し、`industry`/`work_style`/`age_range`/`employment_status`で加点する減点なし方式。ハード除外(hardFail)は無い(budget等のゲート条件が存在しないため)。同点の場合は`priority`の**小さい数字を優先表示**する(1が最優先)。subsidy-checker/sidejob-checkerの`priority`は降順(大きい数字が優先)になっており本アプリとは向きが逆なので、データ編集時は注意すること。
+`js/match.js`の`scoreAgent`は`concern`一致を最重要視(+5)し、`industry`/`work_style`/`age_range`/`employment_status`で加点する減点なし方式。ハード除外(hardFail)は無い(budget等のゲート条件が存在しないため)。同点の場合は`priority`の**小さい数字を優先表示**する(1が最優先)。`priority`の向きは4アプリ(subsidy-checker/sidejob-checker/insurance-checker/career-checker)すべてで同じ(1が最重要)。subsidy-checkerとsidejob-checkerはタイブレークが逆向きになっていたが2026-09-28に修正済み。
 
 ## マネタイズ導線
 
