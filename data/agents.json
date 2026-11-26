@@ -97,42 +97,6 @@
     "priority": 1
   },
   {
-    "id": "meikou-career",
-    "name": "明光キャリアパートナーズ",
-    "category": "正社員転職(IT)",
-    "summary": "未経験からのITエンジニア転職に強いキャリアエージェント。研修付き求人の紹介やキャリアカウンセリングを通じて、IT業界への転職をサポートする。",
-    "feature_text": "未経験・第二新卒向けの研修付きIT求人に強い",
-    "fit_text": "未経験からITエンジニアとしてキャリアをスタートしたい20代向け",
-    "conditions_text": "主に20代・第二新卒層を対象とした求人が中心",
-    "tags": {
-      "employment_status": [
-        "employee",
-        "unemployed"
-      ],
-      "concern": [
-        "it_skillup"
-      ],
-      "work_style": [
-        "fulltime"
-      ],
-      "industry": [
-        "it"
-      ],
-      "age_range": [
-        "20s"
-      ]
-    },
-    "related_offers": [
-      {
-        "label": "明光キャリアパートナーズでエンジニア転職を探す",
-        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWS+3ENKNM+5P1E+5YJRM",
-        "type": "affiliate"
-      }
-    ],
-    "links_to_subsidy_checker": true,
-    "priority": 2
-  },
-  {
     "id": "ageless-agent",
     "name": "エイジレスエージェント",
     "category": "ミドル・シニア転職(IT)",
