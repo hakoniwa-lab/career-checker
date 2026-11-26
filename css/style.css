@@ -437,6 +437,11 @@ html, body {
   margin: 0 0 12px;
 }
 .card--article p:last-child { margin-bottom: 0; }
+.card--article h3 {
+  font-size: 0.95rem;
+  margin: 18px 0 6px;
+}
+.card--article ul li { margin-bottom: 4px; }
 .card--article ul {
   font-size: 0.9rem;
   margin: 0 0 12px;
